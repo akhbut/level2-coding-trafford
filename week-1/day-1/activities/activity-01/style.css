@@ -1,0 +1,14 @@
+body{font-family: sans-serif;background-color: white;}
+    h1{color:dodgerblue;font-size: 60px;text-decoration: underline;}
+    h2{color:red; font-size: 45px;}
+    h3{color:slategray; font-size: 25px;}
+    p{color:dodgerblue; font-size: 20px;}
+    ul{color: purple; font-size: 15px;}
+    img{width: 60%;}
+    .subheading {color:black}
+    #cat-text{color: black;}
+    .news-story{border: 3px solid blue;
+    width: 150px;
+    height:150px;
+    padding: 30px 10px 10px 30px;
+    margin: 100px;}
