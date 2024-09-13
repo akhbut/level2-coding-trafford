@@ -25,15 +25,30 @@
     color: #4B4B4B;
     font-size: 16px;
     padding: 10px;
-    width: 200px;
+    width: 100vw;
     height: 80px;
 }
 
 .nav-bar {
+    width: 100%;
     background-color: #8B4513;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.nav-bar ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-bar li {
+    flex-grow: 1;
+    text-align: center;
+    padding: 10px;
 }
 
 .left-button {
@@ -114,6 +129,13 @@ h4 {
 /* Images */
 .home-page-images {
     padding: 20px 0 10px;
+}
+
+.home-page-images img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
 .photo {
