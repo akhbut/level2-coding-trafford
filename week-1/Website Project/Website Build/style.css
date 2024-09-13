@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    padding: 0;
+    color: #4B4B4B;
+}
+
+.container {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #4B4B4B;
+    font-size: 16px;
+    padding: 10px;
+    width: 200px;
+    height: 80px;
+}
+
+.nav-bar {
+    background-color: #8B4513;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-button {
+    margin-right: auto;
+    font-size: x-large;
+}
+
+.right-buttons {
+    margin-left: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 15px 0;
+}
+
+li {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+h1 {
+    padding: 15px 0 20px;
+    text-align: center;
+    color: #8B4513;
+}
+
+h2 {
+    padding: 0 0 5px;
+    text-align: center;
+    color: #4B4B4B;
+}
+
+h3 {
+    color: #5C4033;
+}
+
+h4 {
+    padding: 0 0 10px;
+    color: #8B4513;
+}
+
+/* Text Sections */
+.introduction-blurbs, .opening-hours, .event, .location {
+    text-align: center;
+    color: #4B4B4B;
+    padding: 10px 0;
+}
+
+.opening-hours {
+    padding: 10px 0;
+}
+
+.event, .location {
+    padding: 10px 0;
+}
+
+/* Images */
+.home-page-images {
+    padding: 20px 0 10px;
+}
+
+.photo {
+    padding: 20px;
+}
+
+.caption {
+    text-align: center;
+}
+
+/* Footer */
+.footer-bar {
+    background-color: #d2b48c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Horizontal Rule */
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #d2b48c;
+    margin: 10px 0;
+}
+
+/* Font Variants */
+.merriweather-light { font-weight: 300; }
+.merriweather-regular { font-weight: 400; }
+.merriweather-bold { font-weight: 700; }
+.merriweather-black { font-weight: 900; }
+.merriweather-light-italic { font-weight: 300; font-style: italic; }
+.merriweather-regular-italic { font-weight: 400; font-style: italic; }
+.merriweather-bold-italic { font-weight: 700; font-style: italic; }
+.merriweather-black-italic { font-weight: 900; font-style: italic; }
